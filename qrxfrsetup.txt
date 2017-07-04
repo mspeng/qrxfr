@@ -1,0 +1,15 @@
+QRXFR working instructions:
+0) Windows 7 or 10
+1) Used WinPython 2.7.10 x64 version.
+
+sendfile.py:
+1) pyqrcode-1.2.1: "pip install pyqrcode" at command prompt
+2) pyqtgraph 0.9.10: cam pre-installed with WinPython
+
+receivefile.py:
+1) opencv3.1 from opencv.org/release.html downloaded install package
+    copy <downloaddir>\opencv3.1\build\python\2.7\x64\cv2.py to 
+       <pythondir>\python-2.7.10.amd64\Lib\site-packages
+2) zbar-0.10 from https://github.com/NaturalHistoryMuseum/ZBarWin64
+    follow instructions: "pip install zbar-0.10-cp27-none-win_amd64.whl" at command prompt
+    might need to install ms visual c++ 2013 redistributable: vcredist_x64.exe 
